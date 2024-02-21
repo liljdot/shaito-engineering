@@ -415,7 +415,9 @@ function Home() {
                                                     <i className="fa fa-phone" aria-hidden="true"></i>
                                                 </div>
                                                 <p>
-                                                    +02 1234567890
+                                                    +234 8088825552
+                                                    <br></br>
+                                                    +234 905 5555597
                                                 </p>
                                             </div>
                                         </a>
@@ -427,7 +429,7 @@ function Home() {
                                                     <i className="fa fa-envelope" aria-hidden="true"></i>
                                                 </div>
                                                 <p>
-                                                    demo@gmail.com
+                                                    info@shaitoengineering.com
                                                 </p>
                                             </div>
                                         </a>
@@ -467,7 +469,7 @@ function Home() {
                 <div className="container">
                     <p>
                         &copy; <span id="displayDateYear"></span> All Rights Reserved By
-                        <a href="https://html.design/">Free Html Templates</a>
+                        <a href="/">Jehu</a>
                     </p>
                 </div>
             </footer>

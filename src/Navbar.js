@@ -10,13 +10,13 @@ function Navbar() {
                             <a href="">
                                 <i className="fa fa-phone" aria-hidden="true"></i>
                                 <span>
-                                    Call : +01 123455678990
+                                    Call : +234 8088825551, +234 9055555597
                                 </span>
                             </a>
                             <a href="">
                                 <i className="fa fa-envelope" aria-hidden="true"></i>
                                 <span>
-                                    Email : demo@gmail.com
+                                    Email : info@shaitoengineering.com
                                 </span>
                             </a>
                         </div>
