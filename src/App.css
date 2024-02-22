@@ -50,6 +50,8 @@
   padding: 4em 6em;
 }
 
+
+
 .slider_section .detail-box {
   min-width: fit-content;
 }
@@ -110,4 +112,11 @@
 
 .about_section .detail-box a:hover {
   color: darkgreen;
+}
+
+@media (max-width: 500px) {
+  .slider_section {
+    padding: 1em;
+  }
+  
 }
