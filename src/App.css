@@ -49,6 +49,11 @@
   background-image: url('../public/images/Upscales.ai_1708607629643.jpeg');
   padding: 4em 6em;
 }
+
+.slider_section .detail-box {
+  min-width: fit-content;
+}
+
 .slider_section .detail-box a {
   background-color: rgb(169, 52, 52);
   border: 1px solid rgb(169, 52, 52);
