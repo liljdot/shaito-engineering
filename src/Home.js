@@ -15,12 +15,15 @@ function Home() {
                             <div className="col-md-6 ">
                                 <div className="detail-box">
                                     <h1>
-                                        Repair and <br />
-                                        Maintenance <br />
-                                        Services
+                                        Engineering <br />
+                                        and <br />
+                                        Logistics
                                     </h1>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum voluptatem adipisci. Quos molestiae saepe dicta nobis pariatur, tempora iusto, ad possimus soluta hic praesentium mollitia consequatur beatae, aspernatur culpa.
+                                        Shaito engineering & logistios (SEL) is a young dynamic organization with it's professional experiences deeply rooted in providing offshore logistics, maintenance of heavy duty mechanical oquipments, like Gonerators, Crano hydraulic pumps, electrical pumps,solar installation & maintenance, vessol/cargo logistics and and other technical &
+                                        works and services in the oil and ges gas sector.
+                                        <br></br>
+                                        
                                     </p>
                                     <a href="">
                                         Contact Us
@@ -29,7 +32,6 @@ function Home() {
                             </div>
                             <div className="col-md-6">
                                 <div className="img-box">
-                                    <img src="images/slider-img.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -73,7 +75,7 @@ function Home() {
                         </div>
                         <div className="box">
                             <div className="img-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
+                                <svg  id = 'svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
                                     <path d="M62.707,31.293l-30-30a1,1,0,0,0-1.414,0l-30,30A1,1,0,0,0,2,33H7V57H6a1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H58a1,1,0,0,0,1-1V58a1,1,0,0,0-1-1H57V33h5a1,1,0,0,0,.707-1.707ZM57,61H7V59H57ZM9,57V32.414l23-23,23,23V57ZM56.414,31,32.707,7.293a1,1,0,0,0-1.414,0L7.586,31H4.414L32,3.414,59.586,31Z" />
                                     <path d="M41,39H36V36a1,1,0,0,0-1-1H29a1,1,0,0,0-1,1v3H23a3,3,0,0,0-3,3v4a1,1,0,0,0,1,1h1v7a1,1,0,0,0,1,1H41a1,1,0,0,0,1-1V47h1a1,1,0,0,0,1-1V42A3,3,0,0,0,41,39ZM30,37h4v2H30ZM40,53H24V47h5v3a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1V47h5Zm-9-6h2v2H31Zm11-2H22V42a1,1,0,0,1,1-1H41a1,1,0,0,1,1,1Z" />
                                     <path d="M46,31H42.422a1,1,0,0,1,0-2H46a1,1,0,0,0,.916-1.4A5.992,5.992,0,0,0,36.231,27h-8.04a5.992,5.992,0,0,0-10.685.6,1,1,0,0,0,.916,1.4H22a1,1,0,0,1,0,2H18.422a1,1,0,0,0-.916,1.4,5.992,5.992,0,0,0,10.685.6h8.04a5.992,5.992,0,0,0,10.685-.6A1,1,0,0,0,46,31Zm-4.578,3a4,4,0,0,1-3.662-2.4,1,1,0,0,0-.916-.6H27.578a1,1,0,0,0-.916.6,3.991,3.991,0,0,1-6.3,1.4H22a3,3,0,0,0,0-6H20.359a3.991,3.991,0,0,1,6.3,1.4,1,1,0,0,0,.916.6h9.266a1,1,0,0,0,.916-.6,3.991,3.991,0,0,1,6.3-1.4h-1.64a3,3,0,0,0,0,6h1.64A3.988,3.988,0,0,1,41.422,34Z" /></svg>
@@ -99,7 +101,7 @@ function Home() {
                                     About us
                                 </h2>
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomisedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                                Over the past few years, SEL has built a reputation for integrity discipline and an unwavering commitment to the highest performance in all facets of our business and operations as evidence through our dedication to our core values. Today measured growth has offered us the opportunity to expand our business and that expansion emerges as SHAITO ENGINEERING & LOGISTICS incorporated under the companies and allied matters Act 1990 R......
                                 </p>
                                 <a href="">
                                     Read More
@@ -108,7 +110,7 @@ function Home() {
                         </div>
                         <div className="col-lg-7 col-md-6">
                             <div className="img-box">
-                                <img src="images/about-img.jpg" alt="" />
+                                <img src="images/Upscales.ai_1708613446301.jpeg" alt="" />
                             </div>
                         </div>
                     </div>

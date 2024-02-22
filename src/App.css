@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-brand span {
+  color: darkgreen;
+}
+
+.info_section {
+  background-color: darkgreen;
+}
+
+.slider_section {
+  background-image: url('../public/images/Upscales.ai_1708607629643.jpeg');
+  padding: 4em 6em;
+}
+.slider_section .detail-box a {
+  background-color: rgb(169, 52, 52);
+  border: 1px solid rgb(169, 52, 52);
+}
+
+.slider_section .detail-box a:hover {
+  color: rgb(169, 52, 52);
+}
+
+.detail-box {
+  background-color: #d1ffe3;
+  padding: 2em
+}
+
+.slider_section .detail-box h1, h2 {
+  color: darkgreen;
+}
+
+.slider_section .detail-box p {
+  color: darkgreen;
+}
+
+.feature_section .container .box.active {
+  background-color: rgb(169, 52, 52);
+}
+
+.feature_section .container .box:hover{
+  background-color: rgb(169, 52, 52);
+}
+.feature_section .feature_container .box .img-box svg {
+  fill: darkgreen;
+}
+
+.feature_section .feature_container .box .img-box svg path {
+  fill: darkgreen;
+}
+
+.feature_section .feature_container .box .name {
+  color: darkgreen;
+}
+
+.feature_section .feature_container .box:hover .name {
+  color: white;
+}
+
+.feature_section .feature_container .box.active .name {
+  color: white;
+}
+
+.about_section .detail-box a {
+  background-color: darkgreen;
+  border: 1px solid darkgreen;
+}
+
+.about_section .detail-box a:hover {
+  color: darkgreen;
+}
