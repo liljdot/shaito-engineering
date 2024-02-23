@@ -37,7 +37,19 @@
   }
 }
 
+.header_bottom {
+  border-bottom: 2px solid darkgreen;
+}
+
 .navbar-brand span {
+  color: darkgreen;
+}
+
+.nav-logo {
+  height: 4em;
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link:hover {
   color: darkgreen;
 }
 
@@ -48,6 +60,10 @@
 .slider_section {
   background-image: url('../public/images/Upscales.ai_1708607629643.jpeg');
   padding: 4em 6em;
+}
+
+.vision .slider_section {
+  background-image: url('../public/images/vision-img.jpeg');
 }
 
 
@@ -112,6 +128,23 @@
 
 .about_section .detail-box a:hover {
   color: darkgreen;
+}
+
+.professional_section.about {
+  background-color: #d1ffe3;
+}
+
+.professional_section .detail-box h2 {
+  color: darkgreen;
+}
+
+.professional_section.ethics {
+  background-color: #d1ffe3;
+}
+
+.professional_section.ethics h3 {
+  color: darkgreen;
+  font-weight: bold;
 }
 
 @media (max-width: 500px) {

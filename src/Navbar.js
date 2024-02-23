@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar() {
+function Navbar(props) {
     return (
         <React.Fragment>
             <header className="header_section">
@@ -10,7 +10,7 @@ function Navbar() {
                             <a href="">
                                 <i className="fa fa-phone" aria-hidden="true"></i>
                                 <span>
-                                    Call : +234 8088825551, +234 9055555597
+                                    Call : +234 8088825552, +234 9055555597
                                 </span>
                             </a>
                             <a href="">
@@ -27,7 +27,7 @@ function Navbar() {
                         <nav className="navbar navbar-expand-lg custom_nav-container ">
                             <a className="navbar-brand" href="index.html">
                                 <span>
-                                    Shaito Engineering
+                                    <img className= 'nav-logo' src="images/nav-logo.png" alt="" />
                                 </span>
                             </a>
 
@@ -37,11 +37,11 @@ function Navbar() {
 
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ">
-                                    <li className="nav-item active">
-                                        <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="/" onMouseOver={(e) => {e.target.style = {color: 'darkgreen'}}} style={props.pathName === '/' ? {color: 'darkgreen', fontWeight: 'bold'} : {color: 'black', fontWeight: 'lighter'}}>Home <span className="sr-only">(current)</span></a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="about"> About</a>
+                                        <a className="nav-link" href="about" style={props.pathName === '/about' ? {color: 'darkgreen', fontWeight: 'bold'} : {color: 'black', fontWeight: 'lighter'}} > About</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="service.html">Services</a>
