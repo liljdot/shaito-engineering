@@ -130,6 +130,41 @@
   color: darkgreen;
 }
 
+.service_section {
+  background-image: url('../public/images/crane.jpeg');
+  background-size: cover;
+}
+
+.service_section h2 {
+  color: white;
+}
+
+.service_section .box {
+  background-color: white;
+}
+
+.service_section .box:hover {
+  background-color: rgb(169, 52, 52);
+}
+
+.service_section .box:hover .detail-box {
+  background-color: rgb(169, 52, 52);
+}
+
+.service_section .btn-box a {
+  background-color: rgb(169, 52, 52);
+  border: 1px solid rgb(169, 52, 52);
+}
+
+.service_section .btn-box a:hover {
+  background-color: white;
+  color: rgb(169, 52, 52);
+}
+
+.service_section .detail-box {
+  background-color: white;
+}
+
 .professional_section.about {
   background-color: #d1ffe3;
 }
