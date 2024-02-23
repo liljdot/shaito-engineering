@@ -37,6 +37,18 @@
   }
 }
 
+@keyframes dropTop {
+  0% {
+    transform: translateY(100%) scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0%) scale(1);
+    opacity: 1;
+  }
+}
+
 .header_bottom {
   border-bottom: 2px solid darkgreen;
 }
@@ -51,6 +63,24 @@
 
 .custom_nav-container .navbar-nav .nav-item .nav-link:hover {
   color: darkgreen;
+}
+
+.overlay {
+  position: fixed;
+  background-color: #00000090;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  padding: 2em;
+}
+
+.popUp {
+  background-image: url('../public/images/popup-img.jpeg');
+  min-height: 40em;
+  animation: dropTop .3s linear;
+  
 }
 
 .info_section {
