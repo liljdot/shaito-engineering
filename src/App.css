@@ -49,6 +49,10 @@
   }
 }
 
+body.active-modal {
+  overflow: hidden;
+}
+
 .header_bottom {
   border-bottom: 2px solid darkgreen;
 }
@@ -77,10 +81,16 @@
 }
 
 .popUp {
-  background-image: url('../public/images/popup-img.jpeg');
-  min-height: 40em;
+  background-color: rgb(169, 52, 52);
+  min-height: 20em;
+  max-height: 45em;
   animation: dropTop .3s linear;
+  overflow-y: scroll;
   
+}
+
+.popup-col {
+  max-height: 40em;
 }
 
 .info_section {
@@ -90,6 +100,15 @@
 .slider_section {
   background-image: url('../public/images/Upscales.ai_1708607629643.jpeg');
   padding: 4em 6em;
+}
+
+.services.slider_section {
+  background-image: url('../public/images/services-banner.jpeg');
+}
+
+.crane_section img {
+  height: 25em;
+  width: 100%;
 }
 
 .vision .slider_section {

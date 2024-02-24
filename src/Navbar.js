@@ -44,7 +44,7 @@ function Navbar(props) {
                                         <a className="nav-link" href="about" style={props.pathName === '/about' ? {color: 'darkgreen', fontWeight: 'bold'} : {color: 'black', fontWeight: 'lighter'}} > About</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="service.html">Services</a>
+                                        <a className="nav-link" href="services">Services</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="contact.html">Contact Us</a>

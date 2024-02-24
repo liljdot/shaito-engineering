@@ -7,6 +7,14 @@ function Home() {
     const toggleModal = () => {
         setModal(!modal)
     }
+
+
+    if(modal) {
+        document.body.classList.add('active-modal')
+    } else {
+        document.body.classList.remove('active-modal')
+    }
+
     return (
         <Fragment>
             {modal ? < Modal toggleModal = {toggleModal} /> : <></>}
