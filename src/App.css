@@ -175,6 +175,23 @@ body.active-modal {
   border: 1px solid darkgreen;
 }
 
+.row.generator-brand {
+  
+}
+
+.row.generator-brand .col a {
+  display: inline-block;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 15px;
+  background-color: darkgreen;
+  max-width: fit-content;
+}
+
 .about_section .detail-box a:hover {
   color: darkgreen;
 }
