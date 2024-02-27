@@ -186,6 +186,67 @@ function Services() {
                     </div>
                 </div>
             </section>
+            <section className="about_section layout_padding">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-5 col-md-6">
+                            <div className="detail-box">
+                                <h2>
+                                    Electric Pump
+                                </h2>
+                                <p>
+                                    Electric pump is a kind of machine utilized for various applications to do a simple task – transfer fluid from one place to another. Due to its excellent performance, efficiency, and precision, electric water pumps are slowly replacing the traditional mechanical pumps in the global market.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-7 col-md-6">
+                            <div className="img-box row">
+                                <img src="images/ele.jpeg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="professional_section about crane_section layout_padding">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <h2 className="text-center">
+                            Solar Installation
+                        </h2>
+                        <p>
+                            From designing and installing solar arrays to optimizing renewable energy systems, we lead the charge towards a sustainable future. Our commitment to excellence and environmental stewardship drives every solar project we undertake. Join us in powering progress while preserving the planet for generations to come.
+                            <br />
+                            <br />
+                            <strong>Solar installations</strong>
+                            <br />
+                            <br />
+                            3 phase hybrid systems, OEM/ODM, 10kw- 300kw off grid with WiFi monitor
+                        </p>
+                    </div>
+                    <div className="row img-box hyd">
+                        <img src="images/sol-2.png" alt="" className="col-md-6 mt-3 mt-md-3" />
+                        <img src="images/sol-1.jpg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                    </div>
+                </div>
+            </section>
+            <section className="about_section layout_padding">
+                <div className="container">
+                    <div className="row">
+                        <div className="detail-box generator">
+                            <h2 className="text-center">
+                                Vessels
+                            </h2>
+                            <p className="text-center">
+                            At Shaito Engineering and Logistics, our vessels deliver precision and reliability for all maritime needs. With experienced crews and cutting-edge technology, we ensure seamless operations, charting the course to your success across oceans.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row img-box">
+                        <img src="images/gen-1.jpeg" alt="" className="col-md-6" />
+                        <img src="images/gen-2.jpeg" alt="" className="col-md-6" />
+                    </div>
+                </div>
+            </section>
         </Fragment>
     )
 }
