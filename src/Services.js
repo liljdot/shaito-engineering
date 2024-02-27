@@ -95,7 +95,7 @@ function Services() {
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <img src="images/arial-crane-2.jpeg" alt="" />
-                                </div>  
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ function Services() {
                                     Cranes
                                 </h2>
                                 <p>
-                                Truck Cranes. As the name suggests, truck cranes or truck-mounted cranes can travel  efficiently on the road due to their unique build. They are hydraulically powered lifting  machine mounted on a truck or trailer. They are unique not just for construction sites also serve for logistics purposes.
+                                    Truck Cranes. As the name suggests, truck cranes or truck-mounted cranes can travel  efficiently on the road due to their unique build. They are hydraulically powered lifting  machine mounted on a truck or trailer. They are unique not just for construction sites also serve for logistics purposes.
                                 </p>
                             </div>
                         </div>
@@ -134,13 +134,13 @@ function Services() {
             <section className="about_section layout_padding">
                 <div className="container">
                     <div className="row">
-                        <div className="detail-box">
+                        <div className="detail-box generator">
                             <h2 className="text-center">
                                 Generators
                             </h2>
-                            <h4>
-                            We rebuild and maintenance industrial and marine generators & engines of different brands:
-                            </h4>
+                            <p className="text-center">
+                                We rebuild and maintenance industrial and marine generators & engines of different brands:
+                            </p>
                         </div>
                     </div>
                     <div className="row generator-brand">
@@ -157,12 +157,32 @@ function Services() {
                         <div className="col"><a href="">Detroit</a></div>
                     </div>
                     <div className="row img-box">
-                        <img src="" alt="" className="col-md-6" />
-                        <img src="" alt="" className="col-md-6" />
-                        <img src="" alt="" className="col-md-6" />
-                        <img src="" alt="" className="col-md-6" />
-                        <img src="" alt="" className="col-md-6" />
-                        <img src="" alt="" className="col-md-6" />
+                        <img src="images/gen-1.jpeg" alt="" className="col-md-6" />
+                        <img src="images/gen-2.jpeg" alt="" className="col-md-6" />
+                        <img src="images/gen-3.jpeg" alt="" className="col-md-6" />
+                        <img src="images/gen-4.jpeg" alt="" className="col-md-6" />
+                        <img src="images/gen-5.jpeg" alt="" className="col-md-6" />
+                        <img src="images/gen-6.jpeg" alt="" className="col-md-6" />
+                    </div>
+                </div>
+            </section>
+            <section className="professional_section about crane_section layout_padding">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <h2 className="text-center">
+                            Hydraulic Pump
+                        </h2>
+                        <p>
+                            Hydraulic pump is a mechanical source of power that converts mechanical power into hydraulic energy (hydrostatic energy i.e. flow, pressure). Hydraulic pumps are used in  hydraulic drive systems and can be hydrostatic or hydrodynamic. They generate flow with enough power to overcome pressure induced by a load at the pump outlet. When a hydraulic pump operates, it creates a vacuum at the pump inlet, which forces liquid from the reservoir into the inlet line to the pump and by mechanical action delivers this liquid to the pump outlet and forces it into the hydraulic system.
+                        </p>
+                    </div>
+                    <div className="row img-box hyd">
+                        <img src="images/hyd-1.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                        <img src="images/hyd-2.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                        <img src="images/hyd-3.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                        <img src="images/hyd-4.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                        <img src="" alt="" className="col-md-6 mt-3 mt-md-3" />
+                        <img src="" alt="" className="col-md-6 mt-3 mt-md-3" />
                     </div>
                 </div>
             </section>

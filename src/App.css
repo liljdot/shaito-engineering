@@ -175,7 +175,8 @@ body.active-modal {
   border: 1px solid darkgreen;
 }
 
-.row.generator-brand {
+.row .generator {
+  width: 100%;
   
 }
 
@@ -252,5 +253,15 @@ body.active-modal {
   .slider_section {
     padding: 1em;
   }
+
+  .professional_section .container .img-box.hyd {
+    display: inline-block;
+  }
   
+}
+
+@media (max-width: 770px) {
+  .professional_section .img-box.hyd {
+    display: inline-block;
+  }
 }
