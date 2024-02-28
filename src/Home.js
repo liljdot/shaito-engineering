@@ -1,15 +1,15 @@
-import React, {useState, Fragment} from 'react'
+import React, { useState, Fragment } from 'react'
 import Carousel from './Carousel';
 import Modal from './Modal';
 
 function Home() {
     const [modal, setModal] = useState(false)
-    const toggleModal = () => {
+    const toggleModal = (e) => {
         setModal(!modal)
     }
 
 
-    if(modal) {
+    if (modal) {
         document.body.classList.add('active-modal')
     } else {
         document.body.classList.remove('active-modal')
@@ -17,7 +17,7 @@ function Home() {
 
     return (
         <Fragment>
-            {modal ? < Modal toggleModal = {toggleModal} /> : <></>}
+            {modal ? < Modal toggleModal={toggleModal} /> : <></>}
             <div className="hero_area">
                 {/* <!-- header section strats --> */}
 
@@ -204,12 +204,12 @@ function Home() {
                 </div>
             </section>
 
-            <div class="row">
-                <div class="col-md-8 mx-auto">
-                <Carousel />
+            <div className="row">
+                <div className="col-md-8 mx-auto">
+                    <Carousel id = 'carousel1'/>
                 </div>
             </div>
-            
+
 
 
             {/* <!-- end service section --> */}
@@ -352,7 +352,6 @@ function Home() {
                 </div>
             </footer>
             {/* <!-- footer section --> */}
-
 
 
 

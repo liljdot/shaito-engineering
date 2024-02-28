@@ -52,7 +52,9 @@
 body.active-modal {
   overflow: hidden;
 }
-
+.service_page img {
+  border-radius: 1.5em;
+}
 .header_bottom {
   border-bottom: 2px solid darkgreen;
 }
@@ -87,6 +89,10 @@ body.active-modal {
   animation: dropTop .3s linear;
   overflow-y: scroll;
   
+}
+
+.carousel {
+  z-index: 25;
 }
 
 .popup-col {
@@ -175,6 +181,10 @@ body.active-modal {
   border: 1px solid darkgreen;
 }
 
+.about_section .container.clients img {
+  
+}
+
 .row .generator {
   width: 100%;
   
@@ -257,11 +267,19 @@ body.active-modal {
   .professional_section .container .img-box.hyd {
     display: inline-block;
   }
+
+  .professional_section .container .img-box {
+    display: inline-block;
+  }
   
 }
 
 @media (max-width: 770px) {
   .professional_section .img-box.hyd {
+    display: inline-block;
+  }
+
+  .professional_section .container .img-box {
     display: inline-block;
   }
 }

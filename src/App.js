@@ -1,32 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Carousel from './Carousel';
 
 function App() {
   return (
-    <section className="about_section layout_padding">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-5 col-md-6">
-            <div className="detail-box">
-              <h2>
-                About us
-              </h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomisedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
-              </p>
-              <a href="">
-                Read More
-              </a>
+    <>
+      {/* <!-- Button trigger modal --> */}
+      <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+      </button>
+
+      {/* <!-- Modal --> */}
+      <div className="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-          </div>
-          <div className="col-lg-7 col-md-6">
-            <div className="img-box">
-              <img src="images/about-img.jpg" alt="" />
+            <div className="modal-body">
+              <Carousel id = 'carousel5'/>
+            </div>
+            <div className="modal-footer">
+              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" className="btn btn-primary">Save changes</button>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </>
   )
 }
 

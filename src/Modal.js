@@ -5,7 +5,7 @@ function Modal(props) {
     return (
         <div className="overlay container-fluid" style={{ margin: 0 }} onClick={props.toggleModal}>
             <div className="row">
-                <div className=" popUp col-md-8 col-sm-8  col-xs-1 mx-auto">
+                <div className=" popUp col-md-8 col-sm-8  col-xs-1 mx-auto" onClick={e => e.stopPropagation()}>
                     <div className="row p-md-5 p-3">
                         <div className="col-md-5 detail-box popup-col">
                             <h2>Maintenance</h2>
@@ -19,8 +19,8 @@ function Modal(props) {
                                 In the realm of vessel maintenance, leasing, and logistics, we provide comprehensive services to meet the diverse needs of our clients. Furthermore, we offer load cells ranging from 5 tons to 300 tons to cater to precise measurement requirements.
                             </p>
                         </div>
-                        <div className="col-md-7 popup-col">
-                            <Carousel />
+                        <div className="col-md-7 pop">
+                        <Carousel id = 'carousellll'/>
                         </div>
                     </div>
                 </div>

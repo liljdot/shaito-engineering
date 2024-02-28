@@ -49,6 +49,9 @@ function Navbar(props) {
                                     <li className="nav-item">
                                         <a className="nav-link" href="contact.html">Contact Us</a>
                                     </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="gallery.html">Gallery</a>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
