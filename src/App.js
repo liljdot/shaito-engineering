@@ -22,7 +22,7 @@ function App() {
               </button>
             </div>
             <div className="modal-body">
-              <Carousel id = 'carousel5'/>
+              ...
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>

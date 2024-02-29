@@ -91,6 +91,25 @@ body.active-modal {
   
 }
 
+.modal .modal-content {
+  background-color: rgb(169, 52, 52);
+}
+
+.modal .modal-content .carousel-item{
+  min-height: 480px;
+  max-height: 480px;
+}
+
+.modal .modal-content .carousel-item img {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+/* .modal .modal-header {
+  background-color: rgb(169, 52, 52);
+} */
+
 .carousel {
   z-index: 25;
 }

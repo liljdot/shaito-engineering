@@ -1,23 +1,24 @@
 import React, { useState, Fragment } from 'react'
 import Carousel from './Carousel';
 import Modal from './Modal';
+import BSModal from './BSModal';
 
 function Home() {
-    const [modal, setModal] = useState(false)
-    const toggleModal = (e) => {
-        setModal(!modal)
-    }
+    // const [modal, setModal] = useState(false)
+    // const toggleModal = (e) => {
+    //     setModal(!modal)
+    // }
 
 
-    if (modal) {
-        document.body.classList.add('active-modal')
-    } else {
-        document.body.classList.remove('active-modal')
-    }
+    // if (modal) {
+    //     document.body.classList.add('active-modal')
+    // } else {
+    //     document.body.classList.remove('active-modal')
+    // }
 
     return (
         <Fragment>
-            {modal ? < Modal toggleModal={toggleModal} /> : <></>}
+            <BSModal/>
             <div className="hero_area">
                 {/* <!-- header section strats --> */}
 
@@ -58,7 +59,7 @@ function Home() {
             <section className="feature_section">
                 <div className="container">
                     <div className="feature_container">
-                        <div className="box" onClick={toggleModal}>
+                        <div className="box" data-toggle="modal" data-target="#exampleModalCenter">
                             <div className="img-box">
                                 <svg enable-background="new 0 0 511.995 511.995" height="512" viewBox="0 0 511.995 511.995" width="512" xmlns="http://www.w3.org/2000/svg">
                                     <g>
@@ -75,7 +76,7 @@ function Home() {
                                 Repair
                             </h5>
                         </div>
-                        <div className="box active" onClick={toggleModal}>
+                        <div className="box active" data-toggle="modal" data-target="#exampleModalCenter">
                             <div className="img-box">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
                                     <g id="paint-painted-paint_roller-home-house" data-name="paint-painted-paint roller-home-house">
@@ -87,7 +88,7 @@ function Home() {
                                 Improve
                             </h5>
                         </div>
-                        <div className="box" onClick={toggleModal}>
+                        <div className="box" data-toggle="modal" data-target="#exampleModalCenter">
                             <div className="img-box">
                                 <svg id='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
                                     <path d="M62.707,31.293l-30-30a1,1,0,0,0-1.414,0l-30,30A1,1,0,0,0,2,33H7V57H6a1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H58a1,1,0,0,0,1-1V58a1,1,0,0,0-1-1H57V33h5a1,1,0,0,0,.707-1.707ZM57,61H7V59H57ZM9,57V32.414l23-23,23,23V57ZM56.414,31,32.707,7.293a1,1,0,0,0-1.414,0L7.586,31H4.414L32,3.414,59.586,31Z" />
@@ -148,7 +149,7 @@ function Home() {
                     </div>
                     <div className="row">
                         <div className="col-sm-6 col-md-4 mx-auto">
-                            <div className="box " onClick={toggleModal}>
+                            <div className="box " data-toggle="modal" data-target="#exampleModalCenter">
                                 <div className="img-box">
                                     <img src="images/s1.png" alt="" />
                                 </div>
@@ -164,7 +165,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="col-sm-6 col-md-4 mx-auto">
-                            <div className="box " onClick={toggleModal}>
+                            <div className="box " data-toggle="modal" data-target="#exampleModalCenter">
                                 <div className="img-box">
                                     <img src="images/s2.png" alt="" />
                                 </div>
@@ -180,7 +181,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="col-sm-6 col-md-4 mx-auto">
-                            <div className="box " onClick={toggleModal}>
+                            <div className="box " data-toggle="modal" data-target="#exampleModalCenter">
                                 <div className="img-box">
                                     <img src="images/s4.png" alt="" />
                                 </div>
