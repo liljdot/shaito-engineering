@@ -63,11 +63,11 @@ function Services() {
                             <div className="col-md-6 ">
                                 <div className="detail-box">
                                     <h2>
-                                        Floating <br />
+                                        Pedestal <br />
                                         Crane
                                     </h2>
                                     <p>
-                                        Floating crane, also known as a crane vessel, is a type of crane that is mounted on a  barge or a ship for use in marine construction projects.like seas and oil rigs.
+                                        Pedestal crane, also known as a crane vessel, is a type of crane that is mounted on a  barge or a ship for use in marine construction projects.like seas and oil rigs.
                                     </p>
                                 </div>
                             </div>
@@ -80,13 +80,13 @@ function Services() {
                             <div className="col-lg-5 col-md-6">
                                 <div className="detail-box">
                                     <h2>
-                                        Arial Cranes
+                                        Tower Cranes
                                     </h2>
                                     <p>
-                                        Aerial Crane. Also known as flying cranes, aerial cranes are special types used to lift loads in areas that are inaccessible by land, oil rigs
+                                        Tower Crane. Also known as flying cranes, tower cranes are special types used to lift loads in areas that are inaccessible by land, oil rigs
                                         <br />
                                         <br />
-                                        Aerial cranes resemble helicopters in appearance. Heavy loads are carried by this type  of crane, They are also referred to as sky cranes.
+                                        Tower cranes resemble helicopters in appearance. Heavy loads are carried by this type  of crane, They are also referred to as sky cranes.
                                     </p>
                                 </div>
                             </div>
@@ -122,11 +122,11 @@ function Services() {
                             <div className="col-md-4 ">
                                 <div className="detail-box">
                                     <h2>
-                                        Truck <br />
+                                        Motor <br />
                                         Cranes
                                     </h2>
                                     <p>
-                                        Truck Cranes. As the name suggests, truck cranes or truck-mounted cranes can travel  efficiently on the road due to their unique build. They are hydraulically powered lifting  machine mounted on a truck or trailer. They are unique not just for construction sites also serve for logistics purposes.
+                                        Motor Cranes. As the name suggests, motor cranes or truck-mounted cranes can travel  efficiently on the road due to their unique build. They are hydraulically powered lifting  machine mounted on a truck or trailer. They are unique not just for construction sites also serve for logistics purposes.
                                     </p>
                                 </div>
                             </div>
@@ -183,8 +183,12 @@ function Services() {
                             <img src="images/hyd-2.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
                             <img src="images/hyd-3.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
                             <img src="images/hyd-4.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
-                            <img src="" alt="" className="col-md-6 mt-3 mt-md-3" />
-                            <img src="" alt="" className="col-md-6 mt-3 mt-md-3" />
+                            <img src="images/hyd-5.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                            <img src="images/hyd-6.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                            <img src="images/hyd-7.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                            <img src="images/hyd-8.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                            <img src="images/hyd-9.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
+                            <img src="images/hyd-10.jpeg" alt="" className="col-md-6 mt-3 mt-md-3" />
                         </div>
                     </div>
                 </section>
@@ -319,8 +323,8 @@ function Services() {
                                 </div>
                             </div>
                             <div className="row img-box mt-3 mt-md-3">
-                                <img src="images/carousel1.jpeg" alt="" className="col-6 col-md-6" />
-                                <img src="images/carousel3.jpeg" alt="" className="col-6 col-md-6" />
+                                <img src="images/fso-1.jpeg" alt="" className="col-6 col-md-6" />
+                                <img src="images/fso-2.jpeg" alt="" className="col-6 col-md-6" />
                             </div>
                         </div>
                     </div>
