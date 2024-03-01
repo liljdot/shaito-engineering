@@ -2,6 +2,7 @@ import React, { useState, Fragment } from 'react'
 import Carousel from './Carousel';
 import Modal from './Modal';
 import BSModal from './BSModal';
+import App from './App';
 
 function Home() {
     // const [modal, setModal] = useState(false)
@@ -207,7 +208,8 @@ function Home() {
 
             <div className="row">
                 <div className="col-md-8 mx-auto">
-                    <Carousel id = 'carousel1'/>
+                    {/* <Carousel id = 'carousel1'/> */}
+                    <App />
                 </div>
             </div>
 

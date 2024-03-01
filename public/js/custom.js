@@ -16,7 +16,7 @@ $(".owl-carousel").owlCarousel({
         '<i class="fa fa-long-arrow-left" aria-hidden="true"></i>',
         '<i class="fa fa-long-arrow-right" aria-hidden="true"></i>'
     ],
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause: true,
     responsive: {
         0: {
