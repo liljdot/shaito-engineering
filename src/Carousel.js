@@ -3,7 +3,7 @@ function Carousel(props) {
     const carouselId = props.carouselId
     return (
         <>
-            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-touch = "true" data-interval="1000">
                 <ol className="carousel-indicators">
                     <li data-target={`#${carouselId}`} data-slide-to="0" className="active"></li>
                     <li data-target={`#${carouselId}`} data-slide-to="1"></li>
