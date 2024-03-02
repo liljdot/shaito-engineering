@@ -278,6 +278,26 @@ body.active-modal {
   font-weight: bold;
 }
 
+.info_items .item .img-box {
+  background-color: #03cc55;
+}
+
+.info_items .item .img-box:hover {
+  background-color: rgb(169, 52, 52);
+}
+
+.info_items .col-md-4:hover .img-box {
+  background-color: rgb(169, 52, 52);
+}
+
+.info_items .item p {
+  background-color: darkgreen;
+}
+
+.footer_section {
+  background-color:  darkgreen;
+}
+
 @media (max-width: 500px) {
   .slider_section {
     padding: 1em;

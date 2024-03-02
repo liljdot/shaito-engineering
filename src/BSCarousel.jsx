@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 
-const BSCarousel = () => {
+const BSCarousel = (props) => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -10,28 +10,47 @@ const BSCarousel = () => {
 
     return (
         <Carousel activeIndex={index} onSelect={handleSelect}>
-            <Carousel.Item >
-                <img src="images/hyd-1.jpeg" className='d-block w-100' alt="" />
-                <Carousel.Caption style={{ backgroundColor: 'red' }}>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
+            <Carousel.Item
+                style={{
+                    minHeight: "480px",
+                    maxHeight: "480px"
+                }}
+            >
+                <img src="images/hyd-1.jpeg" className='d-block w-100' alt="" 
+                    style={{
+                        position: "absolute",
+                        top: "50%",
+                        transform: "translatey(-50%)"
+                    }}
+                />
             </Carousel.Item>
-            <Carousel.Item>
-                <img src="images/gen-1.jpeg" className='d-block w-100' alt="" />
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
+            <Carousel.Item
+                style={{
+                    minHeight: "480px",
+                    maxHeight: "480px"
+                }}
+            >
+                <img src="images/gen-1.jpeg" className='d-block w-100' alt=""
+                    style={{
+                        position: "absolute",
+                        top: "50%",
+                        transform: "translatey(-50%)"
+                    }}
+                />
             </Carousel.Item>
-            <Carousel.Item>
-                <img src="images/hyd-2.jpeg" className='d-block w-100' alt="" />
-                <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                </Carousel.Caption>
+            <Carousel.Item
+                style={{
+                    minHeight: "480px",
+                    maxHeight: "480px"
+                }}
+            >
+                <img src="images/hyd-2.jpeg" className='d-block w-100' alt=""
+                    style={{
+                        position: "absolute",
+                        top: "50%",
+                        transform: "translatey(-50%)"
+                    }}
+                />
             </Carousel.Item>
         </Carousel>
     )

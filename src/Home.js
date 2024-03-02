@@ -3,6 +3,9 @@ import Carousel from './Carousel';
 import Modal from './Modal';
 import BSModal from './BSModal';
 import App from './App';
+import modalContents from './modalContents';
+
+
 
 function Home() {
     // const [modal, setModal] = useState(false)
@@ -17,9 +20,20 @@ function Home() {
     //     document.body.classList.remove('active-modal')
     // }
 
+    const [modalContent, setModalContent] = useState({
+        title: "...",
+        content: "...",
+        images: []
+    });
+    const changeModalContent = (e) => {
+        const id = e.currentTarget.id
+        console.log(modalContents[id])
+        setModalContent(modalContents[id])
+    }
+
     return (
         <Fragment>
-            <BSModal/>
+            <BSModal content = {modalContent}/>
             <div className="hero_area">
                 {/* <!-- header section strats --> */}
 
@@ -60,7 +74,7 @@ function Home() {
             <section className="feature_section">
                 <div className="container">
                     <div className="feature_container">
-                        <div className="box" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div className="box" data-toggle="modal" data-target="#exampleModalCenter" id = "repair" onClick={changeModalContent}>
                             <div className="img-box">
                                 <svg enable-background="new 0 0 511.995 511.995" height="512" viewBox="0 0 511.995 511.995" width="512" xmlns="http://www.w3.org/2000/svg">
                                     <g>
@@ -77,7 +91,7 @@ function Home() {
                                 Repair
                             </h5>
                         </div>
-                        <div className="box active" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div className="box active" data-toggle="modal" data-target="#exampleModalCenter" id = "improvement" onClick={changeModalContent}>
                             <div className="img-box">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
                                     <g id="paint-painted-paint_roller-home-house" data-name="paint-painted-paint roller-home-house">
@@ -89,7 +103,7 @@ function Home() {
                                 Improve
                             </h5>
                         </div>
-                        <div className="box" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div className="box" data-toggle="modal" data-target="#exampleModalCenter" id = "maintenance" onClick={changeModalContent}>
                             <div className="img-box">
                                 <svg id='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
                                     <path d="M62.707,31.293l-30-30a1,1,0,0,0-1.414,0l-30,30A1,1,0,0,0,2,33H7V57H6a1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H58a1,1,0,0,0,1-1V58a1,1,0,0,0-1-1H57V33h5a1,1,0,0,0,.707-1.707ZM57,61H7V59H57ZM9,57V32.414l23-23,23,23V57ZM56.414,31,32.707,7.293a1,1,0,0,0-1.414,0L7.586,31H4.414L32,3.414,59.586,31Z" />
@@ -150,7 +164,7 @@ function Home() {
                     </div>
                     <div className="row">
                         <div className="col-sm-6 col-md-4 mx-auto">
-                            <div className="box " data-toggle="modal" data-target="#exampleModalCenter">
+                            <div className="box " data-toggle="modal" data-target="#exampleModalCenter" id = "maintenance" onClick={changeModalContent}>
                                 <div className="img-box">
                                     <img src="images/s1.png" alt="" />
                                 </div>
@@ -159,14 +173,13 @@ function Home() {
                                         Maintenance
                                     </h5>
                                     <p>
-                                        when looking at its layout. The point of using Lorem Ipsum is
-                                        that it has a more-or-less normal
+                                    Excellence in maintenance: Precision in every service, prolonging equipment life, and ensuring peak performance for uninterrupted industrial operations.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-6 col-md-4 mx-auto">
-                            <div className="box " data-toggle="modal" data-target="#exampleModalCenter">
+                            <div className="box " data-toggle="modal" data-target="#exampleModalCenter" id = "solar" onClick={changeModalContent}>
                                 <div className="img-box">
                                     <img src="images/s2.png" alt="" />
                                 </div>
@@ -175,14 +188,13 @@ function Home() {
                                         Electrical and Solar
                                     </h5>
                                     <p>
-                                        when looking at its layout. The point of using Lorem Ipsum is
-                                        that it has a more-or-less normal
+                                    Harnessing solar power for a sustainable future. Our expertise lies in advanced 3-phase hybrid systems, offering efficient solutions with WiFi monitoring.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-6 col-md-4 mx-auto">
-                            <div className="box " data-toggle="modal" data-target="#exampleModalCenter">
+                            <div className="box " data-toggle="modal" data-target="#exampleModalCenter" id = "logistics" onClick={changeModalContent}>
                                 <div className="img-box">
                                     <img src="images/s4.png" alt="" />
                                 </div>
@@ -191,8 +203,7 @@ function Home() {
                                         Logistics
                                     </h5>
                                     <p>
-                                        when looking at its layout. The point of using Lorem Ipsum is
-                                        that it has a more-or-less normal
+                                    Efficient heavy machinery logistics – from planning to execution. Optimize routes, minimize downtime, and ensure secure transportation for seamless operations.
                                     </p>
                                 </div>
                             </div>
@@ -209,7 +220,6 @@ function Home() {
             <div className="row">
                 <div className="col-md-8 mx-auto">
                     {/* <Carousel id = 'carousel1'/> */}
-                    <App />
                 </div>
             </div>
 

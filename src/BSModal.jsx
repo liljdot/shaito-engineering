@@ -16,7 +16,7 @@ const BSModal = (props) => {
                 <div className="modal-dialog modal-dialog-centered modal-xl" role="document">
                     <div className="modal-content">
                         <div className="modal-header detail-box">
-                            <h2 className="modal-title" id="exampleModalCenterTitle">Maintenance</h2>
+                            <h2 className="modal-title" id="exampleModalCenterTitle">{props.content.title}</h2>
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -26,15 +26,7 @@ const BSModal = (props) => {
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="modal-details detail-box">
-                                            <p>
-                                                We specialize in the maintenance of heavy-duty equipment, focusing on the rebuilding and upkeep of various industrial machinery. Our expertise extends to cranes, hydraulic pumps and systems, as well as generators and engines from different brands.
-                                                <br></br>
-                                                <br></br>
-                                                Additionally, we are proficient in electric pump services. We excel in solar installations, particularly 3-phase hybrid systems, offering OEM/ODM solutions for 10kw to 300kw off-grid setups complete with WiFi monitoring.
-                                                <br></br>
-                                                <br></br>
-                                                In the realm of vessel maintenance, leasing, and logistics, we provide comprehensive services to meet the diverse needs of our clients. Furthermore, we offer load cells ranging from 5 tons to 300 tons to cater to precise measurement requirements.
-                                            </p>
+                                            <p dangerouslySetInnerHTML={{__html: props.content.content}}></p>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
