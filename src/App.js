@@ -11,9 +11,9 @@ function App() {
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+      <Carousel.Item >
         <img src="images/hyd-1.jpeg" className = 'd-block w-100' alt="" />
-        <Carousel.Caption>
+        <Carousel.Caption style={{backgroundColor: 'red'}}>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>

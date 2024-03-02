@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "./Carousel";
+import BSCarousel from "./BSCarousel";
 
 const BSModal = (props) => {
     return (
@@ -37,7 +38,7 @@ const BSModal = (props) => {
                                         </div>
                                     </div>
                                     <div className="col-md-6">
-                                        < Carousel carouselID='hello' />
+                                        < BSCarousel />
                                     </div>
                                 </div>
                             </div>
