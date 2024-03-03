@@ -294,7 +294,7 @@ function Home() {
                                                     <i className="fa fa-map-marker" aria-hidden="true"></i>
                                                 </div>
                                                 <p>
-                                                    Lorem Ipsum is simply dummy text
+                                                    Aluu Road, Choba, Rivers State.
                                                 </p>
                                             </div>
                                         </a>
