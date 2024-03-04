@@ -7,13 +7,13 @@ function Navbar(props) {
                 <div className="header_top">
                     <div className="container-fluid">
                         <div className="contact_nav">
-                            <a href="">
+                            <a href="tel:+234 8088825552">
                                 <i className="fa fa-phone" aria-hidden="true"></i>
                                 <span>
                                     Call : +234 8088825552, +234 9055555597
                                 </span>
                             </a>
-                            <a href="">
+                            <a href="mailto:info@shaitoengineering.com">
                                 <i className="fa fa-envelope" aria-hidden="true"></i>
                                 <span>
                                     Email : info@shaitoengineering.com
@@ -47,10 +47,10 @@ function Navbar(props) {
                                         <a className="nav-link" href="services">Services</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="contact.html">Contact Us</a>
+                                        <a className="nav-link" href="contact">Contact Us</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="gallery.html">Gallery</a>
+                                        <a className="nav-link" href="gallery">Gallery</a>
                                     </li>
                                 </ul>
                             </div>
