@@ -1,16 +1,34 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 
+
 const BSCarousel = (props) => {
     const [index, setIndex] = useState(0);
+    const images = props.images
 
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
     };
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-            <Carousel.Item
+        <Carousel activeIndex={index} onSelect={handleSelect} indicators={false}>
+            {images.map((image) => {
+                return <Carousel.Item
+                    style={{
+                        minHeight: "480px",
+                        maxHeight: "480px"
+                    }}
+                >
+                    <img src={image} className='d-block w-100' alt=""
+                        style={{
+                            position: "absolute",
+                            top: "50%",
+                            transform: "translatey(-50%)"
+                        }}
+                    />
+                </Carousel.Item>
+            })}
+            {/* <Carousel.Item
                 style={{
                     minHeight: "480px",
                     maxHeight: "480px"
@@ -51,7 +69,7 @@ const BSCarousel = (props) => {
                         transform: "translatey(-50%)"
                     }}
                 />
-            </Carousel.Item>
+            </Carousel.Item> */}
         </Carousel>
     )
 }

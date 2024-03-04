@@ -30,7 +30,7 @@ const BSModal = (props) => {
                                         </div>
                                     </div>
                                     <div className="col-md-6">
-                                        < BSCarousel />
+                                        < BSCarousel images = {props.content.images}/>
                                     </div>
                                 </div>
                             </div>

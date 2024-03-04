@@ -132,7 +132,7 @@ function Home() {
                                     About us
                                 </h2>
                                 <p>
-                                    Over the past few years, SEL has built a reputation for integrity discipline and an unwavering commitment to the highest performance in all facets of our business and operations as evidence through our dedication to our core values. Today measured growth has offered us the opportunity to expand our business and that expansion emerges as SHAITO ENGINEERING & LOGISTICS incorporated under the companies and allied matters Act 1990 R......
+                                    Over the past few years, SEL has built a reputation for integrity discipline and an unwavering commitment to the highest performance in all facets of our business and operations as evidence through our dedication to our core values. Today measured growth has offered us the opportunity to expand our business and that expansion emerges as SHAITO ENGINEERING & LOGISTICS incorporated under the companies and allied matters Act
                                 </p>
                                 <a href="">
                                     Read More
