@@ -298,6 +298,14 @@ body.active-modal {
   background-color:  darkgreen;
 }
 
+.gallery_slider + button:hover, .gallery_slider + button + button:hover {
+  color: darkred;
+}
+
+.gallery_slider::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 500px) {
   .slider_section {
     padding: 1em;

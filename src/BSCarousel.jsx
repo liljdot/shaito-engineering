@@ -1,14 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Carousel } from "react-bootstrap";
 
 
 const BSCarousel = (props) => {
     const [index, setIndex] = useState(0);
     const images = props.images
+    const sliderIndex = parseInt(props.sliderIndex)
 
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
+        props.changeSliderIndex(selectedIndex)
     };
+
+    useEffect(()=>{
+        console.log("carousel" + sliderIndex)
+        setIndex(sliderIndex)
+    },[sliderIndex])
 
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} indicators={false}>

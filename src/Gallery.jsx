@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import BSCarousel from "./BSCarousel";
 
 const images = [
@@ -39,6 +39,50 @@ const images = [
 ]
 
 const Gallery = () => {
+    const [sliderIndex, setSliderIndex] = useState(0)
+    const [buttonRightFocus, setButtonRightFocus] = useState(false)
+    const [buttonLeftFocus, setButtonLeftFocus] = useState(false)
+    const slideScroller = useRef(null)
+    const scrollRight = () => {
+        setButtonRightFocus(true)
+    }
+
+    const scrollLeft = () => {
+        setButtonLeftFocus(true)
+    }
+
+    const stopScroll = () => {
+        setButtonLeftFocus(false)
+        setButtonRightFocus(false)
+    }
+    const handleClick = (e) => {
+        setSliderIndex(e.target.id)
+        console.log(e.target.id)
+    }
+    const changeSliderIndex = (selectedIndex) => {
+        setSliderIndex(selectedIndex)
+    }
+
+    useEffect(() => {
+        const scrollInterval = setInterval(() => {
+            if (buttonRightFocus) {
+                slideScroller.current.scrollLeft += 1
+            }
+
+            else if (buttonLeftFocus) {
+                slideScroller.current.scrollLeft -= 1
+            }
+
+            else {
+                const one = 1
+            }
+        }, 10)
+
+        return () => {
+            clearInterval(scrollInterval)
+        }
+    }, [buttonRightFocus, buttonLeftFocus])
+
     return (
         <>
             <section className="contact_section layout_padding">
@@ -48,13 +92,26 @@ const Gallery = () => {
                             Gallery
                         </h2>
                     </div>
-                    <div className="row">
+                    <div className="row mb-5 mb-md-5">
                         <div className="col-md-8 mx-auto">
-                            <BSCarousel images={images} />
+                            <BSCarousel images={images} sliderIndex={sliderIndex} changeSliderIndex={changeSliderIndex} />
                         </div>
+                    </div>
+                    <div className="row container-fluid mx-auto" style={{ height: "10em", position: 'relative' }}>
+                        <div ref={slideScroller} className="row gallery_slider container-fluid mx-auto" style={{ height: '10em', overflowX: 'auto', overflowY: "hidden", whiteSpace: 'nowrap', display: 'block'}}>
+
+                            {images.map((image, index) => {
+                                return <div id={index} className="col-6 col-md-3 ml-1 ml-md-1" onClick={handleClick} style={{ backgroundColor: index != sliderIndex ? "#000000d0" : "darkred", height: 'inherit', display: 'inline-block', float: 'none', border: index != sliderIndex ? '2px solid transparent' : "2px solid darkred", overflowY: 'hidden' }}>
+                                    <img id={index} src={image} alt="" style={{ height: 'inherit', position: "absolute", left: "50%", transform: "translatex(-50%)", maxWidth: '100%' }} />
+                                </div>
+                            })}
+                        </div>
+                        <button onTouchStart={scrollRight} onMouseDown={scrollRight} onMouseUp={stopScroll} style={{ position: 'absolute', padding: 0, width: "3em", height: "3em", top: "50%", left: "95%", transform: "translatey(-90%)", backgroundColor: "#00000080", border: "1px solid darkred", borderRadius: "50%" }}>{">"}</button>
+                        <button onTouchStart={scrollLeft} onMouseDown={scrollLeft} onMouseUp={stopScroll} style={{ position: 'absolute', padding: 0, width: "3em", height: "3em", top: "50%", right: "95%", transform: "translatey(-90%)", backgroundColor: "#00000080", border: "1px solid darkred", borderRadius: "50%" }}>{"<"}</button>
                     </div>
                 </div>
             </section>
+
         </>
     )
 }
