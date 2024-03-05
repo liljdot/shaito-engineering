@@ -30,7 +30,7 @@ const BSModal = (props) => {
                                         </div>
                                     </div>
                                     <div className="col-md-6">
-                                        < BSCarousel images = {props.content.images}/>
+                                        < BSCarousel images = {props.content.images} sliderIndex = "0" changeSliderIndex ={()=>{const two = 2}}/>
                                     </div>
                                 </div>
                             </div>
