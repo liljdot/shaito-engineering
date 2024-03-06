@@ -26,11 +26,12 @@ const BSCarousel = (props) => {
                         maxHeight: "480px"
                     }}
                 >
-                    <img src={image} className='d-block w-100' alt=""
+                    <img src={image} className='d-block' alt=""
                         style={{
                             position: "absolute",
-                            top: "50%",
-                            transform: "translatey(-50%)"
+                            left: "50%",
+                            transform: "translatex(-50%)",
+                            height: "480px"
                         }}
                     />
                 </Carousel.Item>
