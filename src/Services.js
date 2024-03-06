@@ -30,7 +30,7 @@ function Services() {
                                                 <li>Electric Water Pump</li>
                                             </ul>
                                         </p>
-                                        <a href="">
+                                        <a href="/contact">
                                             Contact Us
                                         </a>
                                     </div>

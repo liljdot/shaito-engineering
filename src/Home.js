@@ -56,7 +56,7 @@ function Home() {
                                         <br></br>
 
                                     </p>
-                                    <a href="">
+                                    <a href="/contact">
                                         Contact Us
                                     </a>
                                 </div>
@@ -134,7 +134,7 @@ function Home() {
                                 <p>
                                     Over the past few years, SEL has built a reputation for integrity discipline and an unwavering commitment to the highest performance in all facets of our business and operations as evidence through our dedication to our core values. Today measured growth has offered us the opportunity to expand our business and that expansion emerges as SHAITO ENGINEERING & LOGISTICS incorporated under the companies and allied matters Act
                                 </p>
-                                <a href="">
+                                <a href="/about">
                                     Read More
                                 </a>
                             </div>
@@ -211,7 +211,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="btn-box">
-                        <a href="">
+                        <a href="/services">
                             View More
                         </a>
                     </div>

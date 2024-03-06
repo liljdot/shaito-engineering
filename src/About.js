@@ -82,7 +82,7 @@ function About() {
                                         <br></br>
 
                                     </p>
-                                    <a href="">
+                                    <a href="/contact">
                                         Contact Us
                                     </a>
                                 </div>

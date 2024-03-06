@@ -44,13 +44,13 @@ function Navbar(props) {
                                         <a className="nav-link" href="about" style={props.pathName === '/about' ? {color: 'darkgreen', fontWeight: 'bold'} : {color: 'black', fontWeight: 'lighter'}} > About</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="services">Services</a>
+                                        <a className="nav-link" href="services" style={props.pathName === '/services' ? {color: 'darkgreen', fontWeight: 'bold'} : {color: 'black', fontWeight: 'lighter'}}>Services</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="contact">Contact Us</a>
+                                        <a className="nav-link" href="contact" style={props.pathName === '/contact' ? {color: 'darkgreen', fontWeight: 'bold'} : {color: 'black', fontWeight: 'lighter'}}>Contact Us</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="gallery">Gallery</a>
+                                        <a className="nav-link" href="gallery" style={props.pathName === '/gallery' ? {color: 'darkgreen', fontWeight: 'bold'} : {color: 'black', fontWeight: 'lighter'}}>Gallery</a>
                                     </li>
                                 </ul>
                             </div>
