@@ -18,7 +18,7 @@ const BSCarousel = (props) => {
     },[sliderIndex])
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect} indicators={false}>
+        <Carousel activeIndex={index} onSelect={handleSelect} indicators={false} fade={true} slide={true}>
             {images.map((image) => {
                 return <Carousel.Item
                     style={{
@@ -30,8 +30,9 @@ const BSCarousel = (props) => {
                         style={{
                             position: "absolute",
                             left: "50%",
-                            transform: "translatex(-50%)",
-                            height: "480px"
+                            top: "50%",
+                            transform: "translate(-50%, -50%)",
+                            maxHeight: "480px"
                         }}
                     />
                 </Carousel.Item>
