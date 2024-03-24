@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <h1 className='text-center'>Oops! We're temproarily Unavailable. <br /> See you soon!</h1>
+      <h1 className='text-center'>Oops! We're temproarily unavailable. <br /> See you soon!</h1>
     </>
   );
 }
