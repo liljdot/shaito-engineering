@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Carousel from "./Carousel";
+import Footer from "./Footer";
 
 function Services() {
     return (
@@ -329,6 +330,7 @@ function Services() {
                         </div>
                     </div>
                 </section>
+                < Footer />
             </div>
         </Fragment>
     )

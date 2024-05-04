@@ -1,5 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, Fragment } from "react";
 import BSCarousel from "./BSCarousel";
+import Footer from "./Footer";
 
 const images = [
     
@@ -154,6 +155,7 @@ const Gallery = () => {
     }, [buttonRightFocus, buttonLeftFocus])
 
     return (
+        <Fragment>
         <div className="detail-box">
             <section className="contact_section layout_padding">
                 <div className="container">
@@ -180,9 +182,10 @@ const Gallery = () => {
                         <button onTouchStart={scrollLeft} onMouseDown={scrollLeft} onMouseUp={stopScroll} style={{ position: 'absolute', padding: 0, width: "3em", height: "3em", top: "50%", right: "95%", transform: "translatey(-90%)", backgroundColor: "#00000080", border: "1px solid darkred", borderRadius: "50%" }}>{"<"}</button>
                     </div>
                 </div>
-            </section>
-
+            </section>              
         </div>
+        < Footer /> 
+        </Fragment>
     )
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 function About() {
     return (
@@ -17,10 +18,10 @@ function About() {
                                     About us
                                 </h2>
                                 <p>
-                                    Shaito engineering & logistios (SEL) is a young dynamic organization with it's professional experiences deeply rooted in providing offshore logistics, maintenance of heavy duty mechanical oquipments, like Gonerators, Crano hydraulic pumps, electrical pumps,solar installation & maintenance, vessol/cargo logistics and and other technical &
-                                    works and services in the oil and ges gas sector.
+                                    Shaito engineering & logistics (SEL) is a young dynamic organization with it's professional experiences deeply rooted in providing offshore logistics, maintenance of heavy duty mechanical oquipments, like Generators, Cranes, hydraulic pumps, electrical pumps, solar installation & maintenance, vessel/cargo logistics and other technical
+                                    works and services in the oil-and-gas sector.
                                     <br></br>
-                                    Over the past few years, SEL has built a reputation for integrity discipline and an unwavering commitment to the highest performance in all facets of our business and operations as evidence through our dedication to our core values. Today measured growth has offered us the opportunity to expand our business and that expansion emerges as SHAITO ENGINEERING & LOGISTICS incorporated under the companies and allied matters Act 1990
+                                    Over the past few years, SEL has built a reputation for integrity, discipline and an unwavering commitment to the highest performance in all facets of our business and operations as evidenced through our dedication to our core values. Today measured growth has offered us the opportunity to expand our business and that expansion emerges as SHAITO ENGINEERING & LOGISTICS incorporated under the companies and allied matters Act of 1990
                                 </p>
                             </div>
                         </div>
@@ -50,7 +51,7 @@ function About() {
                                     Statement
                                 </h2>
                                 <p>
-                                    Our mission is to deliver highly optimum and reliable logistios solutions with outstanding services that meet the demand in the oil and gas industry while preparing for the future.
+                                    Our mission is to deliver highly optimum and reliable logistics solutions with outstanding services that meet the demand in the oil-and-gas industry while preparing for the future.
                                 </p>
                             </div>
                         </div>
@@ -74,11 +75,10 @@ function About() {
                                     </h1>
                                     <p>
                                         Our strategy is to join our experience and integrate our professionalism with the opportunities that will be provided
-                                        by the logistics service and engineering world. OurTeam
-                                        We installsolar panels from all ranges of watts and carry out routine maintenance on them. We provide ourselves with renowned professionals who are highly skilled, and experienced resourceful demonstrating high competence in their core functions SEL has established reputation for safely delivering complex work over projects on time and on budget.
+                                        by the logistics service and engineering world. We install solar panels from all ranges of watts and carry out routine maintenance on them. We provide ourselves with renowned professionals who are highly skilled, experienced and resourceful, demonstrating a high level competence in their core functions. SEL has established reputation for safely delivering complex work over projects on time and on budget.
                                         <br></br>
                                         <br></br>
-                                        Our vision is to be a competent engineering and logistics provider in the industry and achieving that dominance through efficient services to our customers / clients oreating a positive relationship.
+                                        Our vision is to be a competent engineering and logistics provider in the industry and achieving that dominance through efficient services to our customers / clients, thereby creating a positive relationship.
                                         <br></br>
 
                                     </p>
@@ -113,7 +113,7 @@ function About() {
                                 <p>
                                     Our success stems from what we believe in:
                                     <ul>
-                                        <li>Providing superior and yet outstanding service to our customers nationwide</li>
+                                        <li>Providing superior, yet outstanding service to our customers nationwide</li>
                                         <li>Investing in training, research and development to maintain and improve our technical knowledge & skills</li>
                                         <li>Insisting on honesty and integrity with customers suppliers and all third party with one another</li>
                                     </ul>
@@ -131,92 +131,13 @@ function About() {
                 </div>
             </section>
             {/* <!-- info section --> */}
-            <section className="info_section ">
-                <div className="container">
-                    <h4>
-                        Get In Touch
-                    </h4>
-                    <div className="row">
-                        <div className="col-lg-10 mx-auto">
-                            <div className="info_items">
-                                <div className="row">
-                                    <div className="col-md-4">
-                                        <a href="">
-                                            <div className="item ">
-                                                <div className="img-box ">
-                                                    <i className="fa fa-map-marker" aria-hidden="true"></i>
-                                                </div>
-                                                <p>
-                                                    Lorem Ipsum is simply dummy text
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="col-md-4">
-                                        <a href="">
-                                            <div className="item ">
-                                                <div className="img-box ">
-                                                    <i className="fa fa-phone" aria-hidden="true"></i>
-                                                </div>
-                                                <p>
-                                                    +234 8088825552
-                                                    <br></br>
-                                                    +234 905 5555597
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="col-md-4">
-                                        <a href="">
-                                            <div className="item ">
-                                                <div className="img-box">
-                                                    <i className="fa fa-envelope" aria-hidden="true"></i>
-                                                </div>
-                                                <p>
-                                                    info@shaitoengineering.com
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="social-box">
-                    <h4>
-                        Follow Us
-                    </h4>
-                    <div className="box">
-                        <a href="">
-                            <i className="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                        <a href="">
-                            <i className="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="">
-                            <i className="fa fa-youtube" aria-hidden="true"></i>
-                        </a>
-                        <a href="">
-                            <i className="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
 
 
 
             {/* <!-- end info_section --> */}
 
             {/* <!-- footer section --> */}
-            <footer className="footer_section">
-                <div className="container">
-                    <p>
-                        &copy; <span id="displayDateYear"></span> All Rights Reserved By
-                        <a href="/">Jehu</a>
-                    </p>
-                </div>
-            </footer>
+            < Footer/>
             {/* <!-- footer section --> */}
 
 
