@@ -1,13 +1,13 @@
-import { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+// import { useState } from 'react';
+// import Carousel from 'react-bootstrap/Carousel';
 
 
 function App() {
-  const [index, setIndex] = useState(0);
+  // const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
+  // const handleSelect = (selectedIndex) => {
+  //   setIndex(selectedIndex);
+  // };
 
   return (
     <>

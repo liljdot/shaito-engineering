@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import { useState, lazy, Suspense } from 'react';
@@ -11,7 +11,7 @@ const Contact = lazy(() => import('./Contact'))
 const Gallery = lazy(() => import('./Gallery'))
 
 function Site() {
-  const [pathName, setPathName] = useState(window.location.pathname);
+  const [pathName] = useState(window.location.pathname);
   return (
     <>
       < Navbar pathName={pathName} />

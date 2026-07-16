@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Carousel from "./Carousel";
+// import Carousel from "./Carousel";
 import Footer from "./Footer";
 
 function Services() {
@@ -147,17 +147,17 @@ function Services() {
                             </div>
                         </div>
                         <div className="row generator-brand">
-                            <div className="col"><a href="">Caterpillar Generators</a></div>
-                            <div className="col"><a href="">Atlas Copco</a></div>
-                            <div className="col"><a href="">Duetz</a></div>
-                            <div className="col"><a href="">FG Wilson Generators</a></div>
-                            <div className="col"><a href="">Fireman</a></div>
-                            <div className="col"><a href="">Kohler</a></div>
-                            <div className="col"><a href="">Cummins Generator</a></div>
-                            <div className="col"><a href="">Perkins</a></div>
-                            <div className="col"><a href="">Lister Peter</a></div>
-                            <div className="col"><a href="">John Deeref</a></div>
-                            <div className="col"><a href="">Detroit</a></div>
+                            <div className="col"><a href="/">Caterpillar Generators</a></div>
+                            <div className="col"><a href="/">Atlas Copco</a></div>
+                            <div className="col"><a href="/">Duetz</a></div>
+                            <div className="col"><a href="/">FG Wilson Generators</a></div>
+                            <div className="col"><a href="/">Fireman</a></div>
+                            <div className="col"><a href="/">Kohler</a></div>
+                            <div className="col"><a href="/">Cummins Generator</a></div>
+                            <div className="col"><a href="/">Perkins</a></div>
+                            <div className="col"><a href="/">Lister Peter</a></div>
+                            <div className="col"><a href="/">John Deeref</a></div>
+                            <div className="col"><a href="/">Detroit</a></div>
                         </div>
                         <div className="row img-box">
                             <img src="images/gen-1.jpeg" alt="" className="col-md-6" />
@@ -259,7 +259,7 @@ function Services() {
                         <div className="row">
                             <div className="row generator-brand">
                                 <div className="col">
-                                    <a href="" className="">Anchor Handling Tugs</a>
+                                    <a href="/" className="">Anchor Handling Tugs</a>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +271,7 @@ function Services() {
                         <div className="row">
                             <div className="row generator-brand">
                                 <div className="col">
-                                    <a href="" className="">Crew Boat</a>
+                                    <a href="/" className="">Crew Boat</a>
                                 </div>
                             </div>
                         </div>
@@ -283,7 +283,7 @@ function Services() {
                         <div className="row">
                             <div className="row generator-brand">
                                 <div className="col">
-                                    <a href="" className="">Cargo Vessel</a>
+                                    <a href="/" className="">Cargo Vessel</a>
                                 </div>
                             </div>
                         </div>
@@ -309,7 +309,7 @@ function Services() {
                         <div className="row">
                             <div className="row generator-brand">
                                 <div className="col">
-                                    <a href="" className="">Aminam ofon sea Eagle bonny nlng erha</a>
+                                    <a href="/" className="">Aminam ofon sea Eagle bonny nlng erha</a>
                                 </div>
                             </div>
                             <div className="row img-box mt-3 mt-md-3">
@@ -320,7 +320,7 @@ function Services() {
                         <div className="row">
                             <div className="row generator-brand">
                                 <div className="col">
-                                    <a href="" className="">FSO Unity</a>
+                                    <a href="/" className="">FSO Unity</a>
                                 </div>
                             </div>
                             <div className="row img-box mt-3 mt-md-3">

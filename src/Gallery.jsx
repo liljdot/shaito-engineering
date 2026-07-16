@@ -147,7 +147,7 @@ const Gallery = () => {
             }
 
             else {
-                const one = 1
+                void(0)
             }
         }, 10)
 
@@ -175,7 +175,7 @@ const Gallery = () => {
                         <div ref={slideScroller} className="row gallery_slider container-fluid mx-auto" style={{ height: '10em', overflowX: 'auto', overflowY: "hidden", whiteSpace: 'nowrap', display: 'block' }}>
 
                             {webpackImages.map((image, index) => {
-                                return <div id={index} className="col-6 col-md-3 ml-1 ml-md-1" onClick={handleClick} style={{ backgroundColor: index != sliderIndex ? "#000000d0" : "darkred", height: 'inherit', display: 'inline-block', float: 'none', border: index != sliderIndex ? '2px solid transparent' : "2px solid darkred", overflowY: 'hidden' }}>
+                                return <div id={index} className="col-6 col-md-3 ml-1 ml-md-1" onClick={handleClick} style={{ backgroundColor: index !== sliderIndex ? "#000000d0" : "darkred", height: 'inherit', display: 'inline-block', float: 'none', border: index !== sliderIndex ? '2px solid transparent' : "2px solid darkred", overflowY: 'hidden' }}>
                                     <img id={index} src={image} alt="" style={{ height: 'inherit', position: "absolute", left: "50%", transform: "translatex(-50%)", maxWidth: '100%' }} />
                                 </div>
                             })}

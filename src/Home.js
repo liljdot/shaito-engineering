@@ -1,8 +1,8 @@
 import React, { useState, Fragment } from 'react'
-import Carousel from './Carousel';
-import Modal from './Modal';
+// import Carousel from './Carousel';
+// import Modal from './Modal';
 import BSModal from './BSModal';
-import App from './App';
+// import App from './App';
 import modalContents from './modalContents';
 import Footer from './Footer';
 

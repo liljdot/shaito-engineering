@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "./Carousel";
+// import Carousel from "./Carousel";
 import BSCarousel from "./BSCarousel";
 
 const BSModal = (props) => {
@@ -30,7 +30,7 @@ const BSModal = (props) => {
                                         </div>
                                     </div>
                                     <div className="col-md-6">
-                                        < BSCarousel images = {props.content.images} sliderIndex = "0" changeSliderIndex ={()=>{const two = 2}}/>
+                                        < BSCarousel images = {props.content.images} sliderIndex = "0" changeSliderIndex ={()=>{}}/>
                                     </div>
                                 </div>
                             </div>
